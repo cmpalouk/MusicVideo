@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B611659D1CBFAD8F00D354F3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611659C1CBFAD8F00D354F3 /* APIManager.swift */; };
 		B6BA8FD31CBF95C100ECF811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA8FD21CBF95C100ECF811 /* AppDelegate.swift */; };
 		B6BA8FD51CBF95C100ECF811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA8FD41CBF95C100ECF811 /* ViewController.swift */; };
 		B6BA8FD81CBF95C100ECF811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BA8FD61CBF95C100ECF811 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B611659C1CBFAD8F00D354F3 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		B6BA8FCF1CBF95C100ECF811 /* MusicVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BA8FD21CBF95C100ECF811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6BA8FD41CBF95C100ECF811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		B6BA90001CBFA43800ECF811 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B611659C1CBFAD8F00D354F3 /* APIManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B611659D1CBFAD8F00D354F3 /* APIManager.swift in Sources */,
 				B6BA8FD51CBF95C100ECF811 /* ViewController.swift in Sources */,
 				B6BA8FD31CBF95C100ECF811 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +520,7 @@
 				B6BA8FF91CBF95C200ECF811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6BA8FFA1CBF95C200ECF811 /* Build configuration list for PBXNativeTarget "MusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				B6BA8FFC1CBF95C200ECF811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6BA8FFD1CBF95C200ECF811 /* Build configuration list for PBXNativeTarget "MusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				B6BA8FFF1CBF95C200ECF811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
