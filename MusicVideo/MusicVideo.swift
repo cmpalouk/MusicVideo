@@ -23,6 +23,8 @@ class Videos {
     private(set) var vLinkToiTunes: String
     private(set) var vReleaseDate: String
     
+    var vImageData:NSData?
+    
     init(data: JSONDictionary) {
         
         // Video name
